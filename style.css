@@ -4,6 +4,11 @@
   padding: 10px 20px;
   border: none;
   cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+#uber-button:hover {
+  opacity: 0.8;
 }
 
 #amazon-button {
@@ -12,6 +17,11 @@
   padding: 7px 50px;
   border-radius: 20px;
   cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+#amazon-button:hover {
+  background-color: rgb(242, 195, 6);
 }
 
 #github-button {
@@ -22,6 +32,11 @@
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+
+#github-button:hover {
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
 }
 
 #bootstrap-button-get-started {
@@ -35,6 +50,11 @@
   border-width: thin;
   border-color: rgb(121, 82, 179);
   cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+#bootstrap-button-get-started:hover {
+  background-color: rgb(76, 51, 112);
 }
 
 #bootstrap-button-download {
@@ -47,6 +67,12 @@
   border-width: thin;
   border-radius: 3px;
   cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+#bootstrap-button-download:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
 }
 
 #linkedin-apply-button {
@@ -60,6 +86,11 @@
   border-radius: 20px;
   margin-right: 10px;
   cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+#linkedin-apply-button:hover {
+  background-color: rgb(6, 49, 101);
 }
 
 #linkedin-button-save {
@@ -71,10 +102,20 @@
   padding: 10px 20px;
   border-radius: 20px;
   cursor: pointer;
+  transition: background-color 0.15s, border-width 0.15s;
+}
+
+#linkedin-button-save:hover {
+  background-color: rgba(198, 210, 225, 255);
+  border-width: 2px;
 }
 
 #amazon-link {
   color: rgb(0, 113, 113);
+}
+
+#amazon-link:hover {
+  color: rgb(176, 108, 78);
 }
 
 #price {
@@ -89,6 +130,15 @@
   border-radius: 20px;
   margin-right: 10px;
   cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+#add-to-cart-button:hover {
+  background-color: rgb(242, 195, 6);
+}
+
+#add-to-cart-button:active {
+  opacity: 0.4;
 }
 
 #buy-now-button {
@@ -97,4 +147,13 @@
   padding: 7px 30px;
   border-radius: 20px;
   cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+#buy-now-button:hover {
+  background-color: rgb(242, 117, 0);
+}
+
+#buy-now-button:active {
+  opacity: 0.4;
 }
